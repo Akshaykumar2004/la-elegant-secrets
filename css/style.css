@@ -3394,3 +3394,78 @@ h4 a:hover {
   background: #b68b50;
   transform: translateY(-5px);
 }
+
+/* Bulk Orders Section */
+.bulk-orders {
+  background: linear-gradient(to right, #fffaf0, #fdf1dc);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bulk-orders .section-title {
+  font-size: 2rem;
+  color: #d2a679;
+  margin-bottom: 15px;
+}
+
+.bulk-orders .section-description {
+  font-size: 1.2rem;
+  color: #6d6d6d;
+  margin-bottom: 30px;
+}
+
+/* Features Grid */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.feature-item {
+  width: 200px;
+  text-align: center;
+}
+
+.feature-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.feature-item h4 {
+  font-size: 1.2rem;
+  color: #b68b50;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1rem;
+  color: #6d6d6d;
+}
+
+/* Button */
+.btn-order-now {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #d2a679;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.btn-order-now i {
+  margin-left: 8px;
+  font-size: 1.2rem;
+}
+
+.btn-order-now:hover {
+  background: #b68b50;
+  transform: translateY(-3px);
+}
